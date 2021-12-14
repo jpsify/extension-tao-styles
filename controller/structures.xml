@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE structures SYSTEM "../doc/structures.dtd">
+<structures>
+    <structure id="settings" name="Settings" level="8" group="settings">
+        <description/>
+        <icon id="icon-style" src=""/>
+        <sections>
+            <section id="taoStyles_main" name="Look and Feel" url="/taoStyles/Main/index">
+                <actions>
+                </actions>
+            </section>
+        </sections>
+    </structure>
+</structures>

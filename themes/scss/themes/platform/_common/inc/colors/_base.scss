@@ -1,0 +1,40 @@
+////
+/// TAO CSS SDK
+/// Color definitions, all platform themes
+/// Note: if a value is an empty string ('') no change will occur
+/// @group Platform Colors
+////
+
+/// Backgrounds can be either a single color or a list with values for a gradient.
+/// Gradient format: ((color:#000[, position:0%])[,(...)])
+
+$colorScheme: (
+	mainBarBg: '',
+	mainBarText: '',
+	menuActiveBg: '',
+	loadingBar: red
+);
+
+@import './varieties';
+@import '../../../../_common/mixins';
+
+/// header
+$headerBg: map-get($colorScheme, 'mainBarBg');
+$headerText: map-get($colorScheme, 'mainBarText'); 
+
+/// footer
+$footerBg: map-get($colorScheme, 'mainBarBg');
+$footerText: map-get($colorScheme, 'mainBarText'); 
+
+/// main menu, hover etc. will be computed according to the formulas in _varieties.scss
+$menuActiveBg: map-get($colorScheme, 'menuActiveBg');
+$menuActiveText: map-get($colorScheme, 'mainBarText');
+
+/// action bar
+$actionBarBg: map-get($colorScheme, 'menuActiveBg');
+$actionBarText: map-get($colorScheme, 'mainBarText');
+
+/// tabs
+$activeTabBg: map-get($colorScheme, 'menuActiveBg');
+$activeTabText: map-get($colorScheme, 'mainBarText');
+

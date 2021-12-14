@@ -1,0 +1,41 @@
+////
+/// TAO CSS SDK
+/// Color definitions, current platform theme
+/// @group Platform Colors
+////
+
+$colorScheme: (
+	mainBarBg:     rgb(227,224,209),
+	mainBarText:   rgb(126,97,53),
+	menuActiveBg:  rgb(200,137,42),
+	menuActiveText:rgb(227,224,209),
+	actionBarBg:   rgb(200,137,42),
+	actionBarText: rgb(227,224,209),
+	loadingBar:    rgb(200,76,42)
+);
+
+@import './varieties';
+@import '../../../../_common/mixins';
+
+/// header
+$headerBg: map-get($colorScheme, 'mainBarBg');
+$headerText: map-get($colorScheme, 'mainBarText'); 
+
+/// footer
+$footerBg: map-get($colorScheme, 'mainBarBg');
+$footerText: map-get($colorScheme, 'mainBarText'); 
+
+/// main menu, hover etc. will be computed according to the formulas in _varieties.scss
+$menuActiveBg: map-get($colorScheme, 'menuActiveBg');
+$menuActiveText: map-get($colorScheme, 'menuActiveText');
+
+/// action bar
+$actionBarBg: map-get($colorScheme, 'actionBarBg');
+$actionBarText: map-get($colorScheme, 'actionBarText');
+
+/// tabs
+$activeTabBg: map-get($colorScheme, 'actionBarBg');
+$activeTabText: map-get($colorScheme, 'actionBarText');
+
+// loading bar
+$loadingBar: map-get($colorScheme, 'loadingBar');

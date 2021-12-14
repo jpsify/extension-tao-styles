@@ -1,0 +1,41 @@
+{
+    "name": "oat-sa/extension-tao-styles",
+    "description": "Customize the appearance of the TAO platform",
+    "type": "tao-extension",
+    "authors": [
+        {
+            "name": "Open Assessment Technologies S.A.",
+            "homepage": "http://www.taotesting.com"
+        }
+    ],
+    "support": {
+        "forum": "https://hub.taocloud.org",
+        "issues": "https://hub.taocloud.org"
+    },
+    "keywords": [
+        "tao",
+        "oat",
+        "QTI",
+        "computer-based-assessment"
+    ],
+    "homepage": "http://www.taotesting.com",
+    "license": [
+        "GPL-2.0-only"
+    ],
+    "extra": {
+        "tao-extension-name": "taoStyles"
+    },
+    "minimum-stability": "dev",
+    "require": {
+        "ext-gd": "*",
+        "oat-sa/oatbox-extension-installer": "~1.1||dev-master",
+        "oat-sa/generis" : ">=14.0.0",
+        "oat-sa/tao-core" : ">=47.0.0",
+        "oat-sa/extension-tao-testqti" : ">=41.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "oat\\taoStyles\\": ""
+        }
+    }
+}

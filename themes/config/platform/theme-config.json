@@ -1,0 +1,134 @@
+{
+    "default": {
+        "id": "default",
+        "label": "TAO Default Theme",
+        "active": true,
+        "colors": []
+    },
+    "theme-1": {
+        "id": "theme-1",
+        "label": "Cereal",
+        "active": true,
+        "colors": {
+            "mainBarBg": "rgb(227,224,209)",
+            "mainBarText": "rgb(126,97,53)",
+            "menuActiveBg": "rgb(200,137,42)",
+            "menuActiveText": "rgb(227,224,209)",
+            "actionBarBg": "rgb(200,137,42)",
+            "actionBarText": "rgb(227,224,209)",
+            "loadingBar": "rgb(200,76,42)"
+        }
+    },
+    "theme-2": {
+        "id": "theme-2",
+        "label": "Blue on White",
+        "active": true,
+        "colors": {
+            "mainBarBg": "rgb(255,255,255)",
+            "mainBarText": "rgb(51,51,102)",
+            "menuActiveBg": "rgb(51,90,125)",
+            "loadingBar": "rgb(200,76,42)",
+            "actionBarBg": "rgb(51,90,125)",
+            "actionBarText": "rgb(255,255,255)",
+            "menuActiveText": "rgb(255,255,255)"
+        }
+    },
+    "theme-3": {
+        "id": "theme-3",
+        "label": "Dark Jade",
+        "active": true,
+        "colors": {
+            "mainBarBg": "rgb(0,47,47)",
+            "mainBarText": "rgb(167,163,126)",
+            "menuActiveBg": "rgb(4,99,128)",
+            "loadingBar": "rgb(230,226,175)",
+            "actionBarBg": "rgb(4,99,128)",
+            "actionBarText": "rgb(255,255,255)",
+            "menuActiveText": "rgb(255,255,255)"
+        }
+    },
+    "theme-4": {
+        "id": "theme-4",
+        "label": "Ocean",
+        "active": true,
+        "colors": {
+            "mainBarBg": "rgb(25,52,65)",
+            "mainBarText": "rgb(145,170,157)",
+            "menuActiveBg": "rgb(62,96,111)",
+            "loadingBar": "rgb(209,219,189)",
+            "actionBarBg": "rgb(62,96,111)",
+            "actionBarText": "rgb(255,255,255)",
+            "menuActiveText": "rgb(255,255,255)"
+        }
+    },
+    "theme-5": {
+        "id": "theme-5",
+        "label": "Night",
+        "active": true,
+        "colors": {
+            "mainBarBg": "rgb(0,0,0)",
+            "mainBarText": "rgb(126,138,162)",
+            "menuActiveBg": "rgb(38,50,72)",
+            "loadingBar": "rgb(255,255,255)",
+            "actionBarBg": "rgb(38,50,72)",
+            "actionBarText": "rgb(165,180,212)",
+            "menuActiveText": "rgb(165,180,212)"
+        }
+    },
+    "theme-6": {
+        "id": "theme-6",
+        "label": "Burgundy",
+        "active": true,
+        "colors": {
+            "mainBarBg": "rgb(76,27,27)",
+            "mainBarText": "rgb(189,141,70)",
+            "menuActiveBg": "rgb(185,18,27)",
+            "loadingBar": "rgb(246,228,151)",
+            "actionBarBg": "rgb(185,18,27)",
+            "actionBarText": "rgb(237,169,84)",
+            "menuActiveText": "rgb(237,169,84)"
+        }
+    },
+    "theme-7": {
+        "id": "theme-7",
+        "label": "Gold and Red",
+        "active": true,
+        "colors": {
+            "mainBarBg": "rgb(89,82,65)",
+            "mainBarText": "rgb(184,174,156)",
+            "menuActiveBg": "rgb(138,9,23)",
+            "loadingBar": "rgb(172,207,204)",
+            "actionBarBg": "rgb(138,9,23)",
+            "actionBarText": "rgb(184,174,156)",
+            "menuActiveText": "rgb(184,174,156)"
+        }
+    },
+    "theme-8": {
+        "id": "theme-8",
+        "label": "Anthracite",
+        "active": true,
+        "colors": {
+            "mainBarBg": "rgb(47,52,59)",
+            "mainBarText": "rgb(126,130,122)",
+            "menuActiveBg": "rgb(112,48,48)",
+            "loadingBar": "rgb(199,121,102)",
+            "actionBarBg": "rgb(112,48,48)",
+            "actionBarText": "rgb(195,201,189)",
+            "menuActiveText": "rgb(195,201,189)"
+        }
+    },
+    "theme-9": {
+        "id": "theme-9",
+        "label": "Dark Purple",
+        "active": true,
+        "colors": {
+            "mainBarBg": "rgb(51,37,50)",
+            "mainBarText": "rgb(164,154,135)",
+            "menuActiveBg": "rgb(100,77,82)",
+            "loadingBar": "rgb(247,122,82)",
+            "actionBarBg": "rgb(100,77,82)",
+            "actionBarText": "rgb(195,201,189)",
+            "menuActiveText": "rgb(195,201,189)"
+        }
+    }
+}
